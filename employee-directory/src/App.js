@@ -1,9 +1,12 @@
-import Title from './components/title';
-import './App.css';
+import Title from './components/Title';
+import Employee from './components/Employee';
 
 function App() {
   return (
+    <div className="container">
     <Title/>
+    <Employee/>
+    </div>
   )
 }
 
