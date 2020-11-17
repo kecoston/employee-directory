@@ -11,7 +11,7 @@ function Employee(props) {
 
             <div className="col-md-9">
             <h2 className="card-title">Name: {props.firstName} {props.lastName}</h2>
-            <p className="card-text"> Role: {props.role} | Department: {props.department}</p>
+            <p className="card-text"><strong> Role:</strong> <i>{props.role} </i>| <strong>Department:</strong> <i>{props.department}</i></p>
         
             </div>
 

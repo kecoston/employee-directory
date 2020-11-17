@@ -1,7 +1,7 @@
 import React from "react";
 import "./search.css"
 
-function Search() {
+function Search(props) {
     return (
         <div className="container">
 
@@ -9,7 +9,7 @@ function Search() {
                 <label for="searchInput">Search for Employee</label>
                 <input type="search" class="form-control" id="searchInput"></input>
 
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary" onClick={ () => props.search(document.getElementById("searchInput").value)}>Submit</button>
             </div>
 
         </div>

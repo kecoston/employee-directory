@@ -6,18 +6,44 @@ import Search from './components/Search/Search'
 import employees from "./employee-list.json"
 
 class App extends Component {
-  state = {
-    employees
-  };
+ 
+  constructor(props){
+    super(props)
+    this.state = {
+      employees,
+      searchValue:""
+    };
+  
+  }
+
+  
+  searchInput = (search) => {
+    this.setState({searchValue: search})
+  }
 
   render() {
+
+    console.log(this.state.searchValue)
+
     return (
       <div className="container">
 
         <Title />
-        <Search />
+        <Search  
+        search={this.searchInput}
+        />
 
-        {this.state.employees.map(employees => (
+        {this.state.employees.filter( (employee) => {
+          if (!this.state.searchValue) {
+            return true
+          }
+          if (this.state.searchValue === employee.firstName) {
+            return true
+          }
+          return false
+        
+        }).map(employees => (
+          
           <Employee
             image={employees.image}
             firstName={employees.firstName}
