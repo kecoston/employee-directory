@@ -3,7 +3,7 @@
         "id": 1,
         "firstName": "Ali",
         "lastName": "Pazani",
-        "image": "../public/assets/images/ali-pazani-3SyAbr5MXMA-unsplash.jpg",
+        "image": "/assets/images/ali-pazani-3SyAbr5MXMA-unsplash.jpg",
         "role": "Administration",
         "department": "IT Department"
     },
