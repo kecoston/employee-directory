@@ -16,20 +16,12 @@ class App extends Component {
     };
   
   }
+
+
   
   searchInput = (search) => {
     this.setState({searchValue: search})
   }
-
-  handleInputChange = (event) => {
-
-    const value = event.target.value
-
-    this.setState ({
-      searchInput: value
-    })
-  }
-
 
 
   render() {
@@ -52,8 +44,18 @@ class App extends Component {
           if (this.state.searchValue === employee.firstName) {
             return true
           }
+          if (this.state.searchValue === employee.lastName) {
+            return true
+          }
+          if (this.state.searchValue === employee.role) {
+            return true
+          }
+          if (this.state.searchValue === employee.department) {
+            return true
+          }
+          else{
           return false
-        
+        }
         }).map(employees => (
           
           <Employee
