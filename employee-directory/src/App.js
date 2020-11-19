@@ -11,19 +11,31 @@ class App extends Component {
     super(props)
     this.state = {
       employees,
-      searchValue:""
+      searchValue:"",
+      searchInput:""
     };
   
   }
-
   
   searchInput = (search) => {
     this.setState({searchValue: search})
   }
 
+  handleInputChange = (event) => {
+
+    const value = event.target.value
+
+    this.setState ({
+      searchInput: value
+    })
+  }
+
+
+
   render() {
 
     console.log(this.state.searchValue)
+
 
     return (
       <div className="container">
@@ -45,6 +57,8 @@ class App extends Component {
         }).map(employees => (
           
           <Employee
+            id={employees.id}
+            key={employees.key}
             image={employees.image}
             firstName={employees.firstName}
             lastName={employees.lastName}

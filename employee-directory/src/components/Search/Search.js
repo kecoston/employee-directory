@@ -7,7 +7,8 @@ function Search(props) {
 
             <div className="form-group">
                 <label for="searchInput">Search for Employee</label>
-                <input type="search" class="form-control" id="searchInput"></input>
+                <input 
+                    type="search" class="form-control" id="searchInput"></input>
 
                     <button type="submit" className="btn btn-primary" onClick={ () => props.search(document.getElementById("searchInput").value)}>Submit</button>
             </div>
