@@ -44,7 +44,7 @@ I want to add a feature that the complete list of employees is replaced when the
 
   GitHub Repository: https://github.com/kecoston/employee-directory
   
-  Deployed Link:
+  Deployed Link: https://kecoston.github.io/employee-directory/
   
   Video of Application: https://drive.google.com/file/d/1L5hWqAOcHbintpsAsF8ws47PYj_X2zXO/view
 
