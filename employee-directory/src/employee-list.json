@@ -3,7 +3,7 @@
         "id": 1,
         "firstName": "Ali",
         "lastName": "Pazani",
-        "image": "/assets/images/ali-pazani-3SyAbr5MXMA-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/ali-pazani-3SyAbr5MXMA-unsplash.jpg'",
         "role": "Administration",
         "department": "IT Department"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "firstName": "Caleb",
         "lastName": "Lucas",
-        "image": "/assets/images/caleb-lucas-6rRuAqtWt60-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/caleb-lucas-6rRuAqtWt60-unsplash.jpg'",
         "role": "Technical Support",
         "department": "IT Department"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "firstName": "Kal",
         "lastName": "Visuals",
-        "image": "/assets/images/kal-visuals-t_z2UegYC-g-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/kal-visuals-t_z2UegYC-g-unsplash.jpg'",
         "role": "Technical Support",
         "department": "IT Department"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "firstName": "Mohammad",
         "lastName": "Faruque",
-        "image": "/assets/images/mohammad-faruque-SpIKPT8zeAs-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/mohammad-faruque-SpIKPT8zeAs-unsplash.jpg'",
         "role": "Communication",
         "department": "IT Department"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "firstName": "Nathon",
         "lastName": "Jolt",
-        "image": "/assets/images/nonsap-visuals-kMJp7620W6U-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/nonsap-visuals-kMJp7620W6U-unsplash.jpg'",
         "role": "Communication",
         "department": "IT Department"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "firstName": "Omid",
         "lastName": "Armin",
-        "image": "/assets/images/omid-armin-_BkjDspEw_k-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/omid-armin-_BkjDspEw_k-unsplash.jpg'",
         "role": "Programming",
         "department": "IT Department"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "firstName": "Prince",
         "lastName": "Akachi",
-        "image": "/assets/images/prince-akachi-i2hoD-C2RUA-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/prince-akachi-i2hoD-C2RUA-unsplash.jpg'",
         "role": "Programming",
         "department": "IT Department"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "firstName": "Svyatoslav",
         "lastName": "Romanov",
-        "image": "/assets/images/svyatoslav-romanov-BrEAp01_m5w-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/svyatoslav-romanov-BrEAp01_m5w-unsplash.jpg'",
         "role":  "Website Development",
         "department": "IT Department"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "firstName": "Toa",
         "lastName": "Heftiba",
-        "image": "/assets/images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg'",
         "role": "Website Development",
         "department": "IT Department"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "firstName": "Wassim",
         "lastName": "Chouak",
-        "image": "/assets/images/wassim-chouak-X1fKWQM-GXY-unsplash.jpg",
+        "image": "process.env.PUBLIC_URL + '/assets/images/wassim-chouak-X1fKWQM-GXY-unsplash.jpg'",
         "role": "Application Development",
         "department": "IT Department"
     }
